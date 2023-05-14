@@ -1,11 +1,11 @@
 <?php
 
-namespace Ghost\DcatConfig\Tools;
+namespace Appsolutely\DcatConfig\Tools;
 
 use Dcat\Admin\Actions\Action;
 use Dcat\Admin\Form;
 use Dcat\Admin\Widgets\Form as WidgetsForm;
-use Ghost\DcatConfig\DcatConfigServiceProvider;
+use Appsolutely\DcatConfig\DcatConfigServiceProvider;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Validator;

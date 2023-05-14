@@ -1,12 +1,12 @@
 <?php
 
-namespace Ghost\DcatConfig\Http\Controllers;
+namespace Appsolutely\DcatConfig\Http\Controllers;
 
 use Dcat\Admin\Form;
 use Dcat\Admin\Layout\Content;
 use Dcat\Admin\Widgets\Tooltip;
-use Ghost\DcatConfig\DcatConfigServiceProvider;
-use Ghost\DcatConfig\Tools\Builder;
+use Appsolutely\DcatConfig\DcatConfigServiceProvider;
+use Appsolutely\DcatConfig\Tools\Builder;
 use Illuminate\Routing\Controller;
 use Dcat\Admin\Layout\Row;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ghost\DcatConfig;
+namespace Appsolutely\DcatConfig;
 
 use Dcat\Admin\Extend\ServiceProvider;
 

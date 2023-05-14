@@ -1,6 +1,6 @@
 <?php
 
-namespace Ghost\DcatConfig\Http\Controllers;
+namespace Appsolutely\DcatConfig\Http\Controllers;
 
 use Dcat\Admin\Traits\HasUploadedFile;
 

@@ -1,30 +1,30 @@
 {
-    "name": "ghost/dcat-config",
+    "name": "get-appsolutely/dcat-config",
     "description": "配置管理",
     "type": "library",
     "keywords": ["dcat-admin", "extension"],
-    "homepage": "https://github.com/ghost-die/dcat-config",
+    "homepage": "https://github.com/getAppsolutely/dcat-config",
     "license": "MIT",
     "authors": [
         {
-            "name": "Ghost",
-            "email": "wangqun1436@gmail.com"
+            "name": "X Q",
+            "email": "hi@okchum.com"
         }
     ],
     "require": {
         "php": ">=7.1.0|8.*",
-        "dcat/laravel-admin": "~2.0"
+        "get-appsolutely/laravel-admin": "dev-main"
     },
     "autoload": {
         "psr-4": {
-            "Ghost\\DcatConfig\\": "src/"
+            "Appsolutely\\DcatConfig\\": "src/"
         }
     },
     "extra": {
-        "dcat-admin": "Ghost\\DcatConfig\\DcatConfigServiceProvider",
+        "dcat-admin": "Appsolutely\\DcatConfig\\DcatConfigServiceProvider",
         "laravel": {
             "providers": [
-                "Ghost\\DcatConfig\\DcatConfigServiceProvider"
+                "Appsolutely\\DcatConfig\\DcatConfigServiceProvider"
             ]
         }
     }
